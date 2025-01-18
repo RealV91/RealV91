@@ -1,0 +1,133 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #c0ccf5;
+}
+
+.topnav {
+    background-color: #1c21b4;
+    overflow: hidden;
+  }
+  
+  
+  .topnav a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header {
+    background-color: rgb(70, 105, 201);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+#about p,
+#resume ul li {
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+th, td {
+    border: 1px solid #0b0b0b;
+    padding: 0.5rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #b0c8fb;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1360px) {
+    body {
+        font-family: sans-serif;
+        margin: 0;
+        background-color: #c0ccf5;
+    }
+    
+    .topnav {
+        background-color: #1c21b4;
+        overflow: hidden;
+      }
+      
+      
+      .topnav a {
+        float: center;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+}
